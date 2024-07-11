@@ -12,7 +12,6 @@ def tearDownModule():
     """ Teardown for a test module """
 
     print('tearDownModule is calling after all test cases in a test module.')
-    del module_string
 
 
 class TestStringMethods(TestCase):
